@@ -124,7 +124,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #ff3434;
+  color: #3bbca7;
 }
 
 ul, ol {
@@ -221,15 +221,15 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -246,7 +246,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-padding-02 {
-    padding-top: 100px;
+    padding-top: 10px;
   }
 }
 
@@ -533,7 +533,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .page-pagination .pagination li a.active {
-  background-color: #3bbca7;
+  background-color: #3bbca0;
   color: #ffffff;
 }
 
@@ -572,7 +572,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #bc3b3b;
+  border-top-color: #3bbca7;
   -webkit-animation: spin 3s linear infinite;
           animation: spin 3s linear infinite;
 }
@@ -2029,7 +2029,7 @@ textarea.form-control {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color:aliceblue;
+  background-color: #ffffff;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -2097,7 +2097,7 @@ textarea.form-control {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-logo a img {
-    width: 100px;
+    width: 130px;
   }
 }
 
@@ -2133,11 +2133,11 @@ textarea.form-control {
 }
 
 .header-menu .main-menu li a.active {
-  color: #bc3b3b;
+  color: #3bbca7;
 }
 
 .header-menu .main-menu li a.active::after {
-  color: #cc00ff;
+  color: #3bbca7;
 }
 
 .header-menu .main-menu li .menu-icon::after {
@@ -2154,12 +2154,12 @@ textarea.form-control {
 
 .header-menu .main-menu li:hover > .menu-icon,
 .header-menu .main-menu li:hover > a {
-  color: #bc3b3b;
+  color: #3bbca7;
 }
 
 .header-menu .main-menu li:hover > .menu-icon::after,
 .header-menu .main-menu li:hover > a::after {
-  color: #ff0000;
+  color: #3bbca7;
 }
 
 .header-menu .main-menu li:hover > .sub-menu {
@@ -2179,7 +2179,7 @@ textarea.form-control {
   padding: 20px 0;
   border-radius: 5px;
   z-index: 99;
-  border-top: 2px solid #ff0000;
+  border-top: 2px solid #3bbca7;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s linear;
@@ -2208,7 +2208,7 @@ textarea.form-control {
   left: 0;
   width: 9px;
   height: 2px;
-  background-color: #bc3b3b;
+  background-color: #3bbca7;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s linear;
@@ -2268,12 +2268,12 @@ textarea.form-control {
 
 .header-menu-02 .main-menu li:hover > .menu-icon,
 .header-menu-02 .main-menu li:hover > a {
-  color: #8400ff;
+  color: #3bbca7;
 }
 
 .header-menu-02 .main-menu li:hover > .menu-icon::after,
 .header-menu-02 .main-menu li:hover > a::after {
-  color: #00ff15;
+  color: #3bbca7;
 }
 
 .header-menu-02 .sub-menu li a {
@@ -2363,7 +2363,7 @@ textarea.form-control {
 
 .header-search input:focus {
   outline: none;
-  border-color: #ff0000;
+  border-color: #3bbca7;
 }
 
 .header-search input::-webkit-input-placeholder {
@@ -3072,7 +3072,7 @@ textarea.form-control {
 }
 
 .offcanvas-menu .sub-menu {
-  background-color: #f7f7f7;
+  background-color: #fdfaf1;
   padding: 5px 20px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -3087,6 +3087,8 @@ textarea.form-control {
 /*----------------------------------------*/
 .slider-section {
   position: relative;
+  margin-top: -50px;
+  margin-bottom: -50px;
 }
 
 .slider-section .shape-1 {
@@ -3188,8 +3190,8 @@ textarea.form-control {
 }
 
 .slider-content {
-  padding-top: 25px;
-  max-width: 720px;
+  padding-top: 75px;
+  max-width: 520px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3215,7 +3217,7 @@ textarea.form-control {
 .slider-content .title {
   font-size: 48px;
   font-weight: 600;
-  color: red;
+  color: #072f60;
   line-height: 1.25;
   margin-top: 10px;
 }
@@ -3239,7 +3241,7 @@ textarea.form-control {
 }
 
 .slider-content p {
-  max-width: 750px;
+  max-width: 400px;
   font-size: 18px;
   line-height: 1.6;
   margin-top: 25px;
@@ -3247,7 +3249,7 @@ textarea.form-control {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-content p {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
 
@@ -3483,7 +3485,7 @@ textarea.form-control {
   position: absolute;
   width: 172px;
   height: 172px;
-  background-color: red;
+  background-color: #afe0fb;
   border-radius: 50%;
   top: 195px;
   left: 15px;
@@ -3508,7 +3510,7 @@ textarea.form-control {
   position: absolute;
   width: 236px;
   height: 236px;
-  background-color: yellow;
+  background-color: #ffcc66;
   border-radius: 50%;
   bottom: 70px;
   right: 90px;
@@ -4417,6 +4419,8 @@ textarea.form-control {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  margin-top: -60px;
+  margin-bottom: -50px;
 }
 
 .counter-section .counter-shape-01 {
@@ -5983,10 +5987,9 @@ textarea.form-control {
 }
 
 .feature-section {
-  background-color: whitesmoke;
-  padding-top: 5px;
+  background-color: #072f60;
+  padding-top: 15px;
   padding-bottom: 45px;
-  
 }
 
 .single-feature {
@@ -6160,7 +6163,6 @@ textarea.form-control {
   position: absolute;
   top: 50%;
   left: 30px;
-  width: 50px;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -6170,7 +6172,6 @@ textarea.form-control {
   .single-category-item a .item-icon {
     height: 41px;
     left: 20px;
-    width: 50px;
   }
 }
 
@@ -7147,7 +7148,7 @@ textarea.form-control {
 
 .brand-title span {
   font-weight: 700;
-  color: #ff0000;
+  color: #3bbca7;
 }
 
 .brand-active {
@@ -7516,12 +7517,12 @@ textarea.form-control {
 }
 
 .call-to-action-bg .call-to-action-shape-01 svg .shape-path {
-  fill: #abbaf5;
+  fill: #3bbca7;
 }
 
 .call-to-action-bg .call-to-action-shape-02 {
   border-radius: 50%;
-  background-color:#006abd;
+  background-color: #afe0fb;
   width: 36px;
   height: 36px;
   position: absolute;
@@ -9840,7 +9841,8 @@ textarea.form-control {
 }
 
 .contact-form-wrapper {
-  padding-top: 20px;
+  margin-top: -100px;
+
 }
 
 .contact-map-area #contact-map {
@@ -11748,11 +11750,4 @@ textarea.form-control {
 
 .back-btn.back-btn-3:hover {
   background-color: #271344;
-}
-
-.bg-warm{
-  background-color: #ffedcc;
-}
-.bg-color-3{
-  background-color: white;
 }
